@@ -10,6 +10,11 @@ install requirements
 pip install -r requirements.txt 
 ```
 
+clone llama.cpp 
+```
+git clone git@github.com:ggml-org/llama.cpp.git
+```
+
 dload the model 
 ```
 python dload.py 
@@ -17,6 +22,8 @@ python dload.py
 
 convert model to gguf format
 ```
+cd llama.cpp 
+
 python convert_hf_to_gguf.py --outfile deepseek_r1_qwen_1.5b.gguf DeepSeek_R1_QWEN_1.5B
 ```
 
