@@ -17,7 +17,7 @@ python dload.py
 
 convert model to gguf format
 ```
-python convert_hf_to_gguf.py --outfile deepseek_r1_llama_8b.gguf DeepSeek_R1_LLAMA_8B
+python convert_hf_to_gguf.py --outfile deepseek_r1_qwen_1.5b.gguf DeepSeek_R1_QWEN_1.5B
 ```
 
 build llama.cpp 
